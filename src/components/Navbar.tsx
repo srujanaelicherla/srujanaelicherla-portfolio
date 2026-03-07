@@ -4,6 +4,10 @@ export default function Navbar() {
 
       <div className="max-w-6xl mx-auto flex justify-between items-center p-5">
 
+        <a href="/" className="text-2xl font-bold text-[#1E293B] hover:text-purple-600 transition">
+         Home
+        </a>
+
         <h1>
           <link rel="icon" type="image/png" href="/icon.png" />
         </h1>
@@ -12,6 +16,7 @@ export default function Navbar() {
           <a href="#about" className="text-[#1E293B] hover:text-blue-400 transition">About</a>
           <a href="#skills" className="text-[#1E293B] hover:text-blue-400 transition">Skills</a>
           <a href="#projects" className="text-[#1E293B] hover:text-blue-400 transition">Projects</a>
+          <a href="/life" className="text-[#1E293B] hover:text-purple-600 transition">Life</a>
           <a href="#contact" className="text-[#1E293B] hover:text-blue-400 transition">Contact</a>
         </div>
 
