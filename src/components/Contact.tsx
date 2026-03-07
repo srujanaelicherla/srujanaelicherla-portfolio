@@ -9,7 +9,7 @@ export default function Contact() {
       </h2>
 
       <p className="text-gray-400 mb-10">
-        Let's connect and build something amazing.
+        Let's connect and build something amazing!
       </p>
 
       <div className="flex justify-center gap-10 text-2xl">

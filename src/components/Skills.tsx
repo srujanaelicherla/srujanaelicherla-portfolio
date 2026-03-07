@@ -24,7 +24,7 @@ export default function Skills() {
           {skills.map((skill)=>(
             <div
               key={skill}
-              className="glass p-6 rounded-xl text-center hover:scale-105 transition"
+              className="className=bg-white/60 backdrop-blur-md rounded-2xl p-6 shadow-lg"
             >
               {skill}
             </div>
