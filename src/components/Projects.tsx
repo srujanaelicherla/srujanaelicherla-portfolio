@@ -29,7 +29,8 @@ export default function Projects() {
             <motion.div
               key={i}
               whileHover={{y:-8}}
-              className="bg-white/50 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-2xl hover:-translate-y-1 transition">
+              className="bg-white/50 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-2xlhover:-translate-y-1 transition"
+            >
 
               <h3 className="text-xl font-semibold mb-4">
                 {p.title}
