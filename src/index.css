@@ -1,7 +1,17 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: system-ui, Arial, sans-serif;
-  background: #0f172a;
+  background: radial-gradient(circle at top, #1e293b, #020617);
   color: white;
+}
+
+.glass {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
 }

@@ -7,36 +7,38 @@ export default function Hero() {
       <div>
 
         <motion.h1
-          initial={{ opacity:0, y:40 }}
-          animate={{ opacity:1, y:0 }}
-          transition={{ duration:0.8 }}
-          className="text-5xl md:text-6xl font-bold mb-6"
+          initial={{opacity:0, y:40}}
+          animate={{opacity:1, y:0}}
+          transition={{duration:0.8}}
+          className="text-6xl font-bold mb-6"
         >
-          Hi, I'm Srujana 👋
+          Srujana Elicherla
         </motion.h1>
 
         <motion.p
-          initial={{ opacity:0 }}
-          animate={{ opacity:1 }}
-          transition={{ delay:0.4 }}
-          className="text-gray-400 max-w-xl mx-auto text-lg"
+          initial={{opacity:0}}
+          animate={{opacity:1}}
+          transition={{delay:0.4}}
+          className="text-gray-400 text-lg max-w-xl mx-auto"
         >
-          Computer Science student passionate about AI, cybersecurity,
-          and building intelligent systems.
+          Computer Science student exploring AI, cybersecurity,
+          and building intelligent systems that solve real problems.
         </motion.p>
 
-        <div className="mt-8 flex justify-center gap-4">
+        <div className="mt-10 flex justify-center gap-6">
 
           <a
             href="#projects"
-            className="px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-500"
+            className="px-7 py-3 bg-blue-600 rounded-lg hover:bg-blue-500 transition"
           >
             View Projects
           </a>
 
           <a
             href="/resume.pdf"
-            className="px-6 py-3 border border-gray-600 rounded-lg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-7 py-3 border border-gray-600 rounded-lg hover:bg-white/10"
           >
             Resume
           </a>

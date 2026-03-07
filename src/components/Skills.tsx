@@ -11,11 +11,11 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-24 bg-slate-900">
+    <section id="skills" className="py-24">
 
       <div className="max-w-6xl mx-auto px-6">
 
-        <h2 className="text-3xl font-bold mb-10">
+        <h2 className="text-3xl font-bold mb-12">
           Skills
         </h2>
 
@@ -24,7 +24,7 @@ export default function Skills() {
           {skills.map((skill)=>(
             <div
               key={skill}
-              className="bg-slate-800 p-6 rounded-xl text-center hover:scale-105 transition"
+              className="glass p-6 rounded-xl text-center hover:scale-105 transition"
             >
               {skill}
             </div>

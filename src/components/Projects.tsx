@@ -3,12 +3,12 @@ import { motion } from "framer-motion"
 const projects = [
   {
     title:"Automated Log Analysis System",
-    description:"Dashboard to monitor logs and detect anomalies.",
+    description:"AI powered dashboard that detects anomalies in system logs.",
     link:"https://github.com"
   },
   {
     title:"E-learning Website",
-    description:"Hackathon winning frontend learning platform.",
+    description:"Hackathon winning educational platform.",
     link:"https://github.com"
   }
 ]
@@ -23,20 +23,20 @@ export default function Projects() {
           Projects
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-10">
 
           {projects.map((p,i)=>(
             <motion.div
               key={i}
-              whileHover={{ scale:1.05 }}
-              className="bg-slate-800 p-6 rounded-xl"
+              whileHover={{y:-8}}
+              className="glass p-8 rounded-xl"
             >
 
-              <h3 className="text-xl font-semibold mb-3">
+              <h3 className="text-xl font-semibold mb-4">
                 {p.title}
               </h3>
 
-              <p className="text-gray-400 mb-4">
+              <p className="text-gray-400 mb-5">
                 {p.description}
               </p>
 
@@ -44,7 +44,7 @@ export default function Projects() {
                 href={p.link}
                 className="text-blue-400"
               >
-                View Project →
+                View on GitHub →
               </a>
 
             </motion.div>

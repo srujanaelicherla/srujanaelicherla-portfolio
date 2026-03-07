@@ -8,22 +8,22 @@ export default function Contact() {
         Contact
       </h2>
 
-      <p className="text-gray-400 mb-8">
-        Let's connect!
+      <p className="text-gray-400 mb-10">
+        Let's connect and build something amazing.
       </p>
 
-      <div className="flex justify-center gap-8 text-xl">
+      <div className="flex justify-center gap-10 text-2xl">
 
-        <a href="mailto:your@email.com">
-          <Mail />
+        <a href="mailto:your@email.com" className="hover:text-blue-400">
+          <Mail/>
         </a>
 
-        <a href="https://github.com">
-          <Github />
+        <a href="https://github.com" className="hover:text-blue-400">
+          <Github/>
         </a>
 
-        <a href="https://linkedin.com">
-          <Linkedin />
+        <a href="https://linkedin.com" className="hover:text-blue-400">
+          <Linkedin/>
         </a>
 
       </div>
