@@ -2,14 +2,14 @@ import { motion } from "framer-motion"
 
 const projects = [
   {
-    title:"Automated Log Analysis System",
-    description:"AI powered dashboard that detects anomalies in system logs.",
-    link:"https://github.com"
+    title:"Ember Study Rooms",
+    description:"A collaborative digital study space with shared focus rooms, real-time presence, tasks, timers, and ambient music.",
+    link:"https://github.com/srujanaelicherla/ember"
   },
   {
-    title:"E-learning Website",
-    description:"Hackathon winning educational platform.",
-    link:"https://github.com"
+    title:"Log Monitoring and Alerting",
+    description:"A RESTful backend API built with FastAPI, SQLAlchemy, and SQLite to ingest, store, and monitor system logs with CRUD operations and filtering.",
+    link:"https://github.com/srujanaelicherla/log-monitoring-backend" 
   }
 ]
 

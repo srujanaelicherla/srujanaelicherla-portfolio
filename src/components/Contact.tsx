@@ -14,15 +14,15 @@ export default function Contact() {
 
       <div className="flex justify-center gap-10 text-2xl">
 
-        <a href="mailto:your@email.com" className="hover:text-blue-400">
+        <a href="mailto:srujanaelicherla@gmail.com" target="_blank" className="hover:text-blue-400">
           <Mail/>
         </a>
 
-        <a href="https://github.com" className="hover:text-blue-400">
+        <a href="https://github.com/srujanaelicherla" target="_blank" className="hover:text-blue-400">
           <Github/>
         </a>
 
-        <a href="https://linkedin.com" className="hover:text-blue-400">
+        <a href="https://www.linkedin.com/in/srujanaelicherla/" target="_blank" className="hover:text-blue-400">
           <Linkedin/>
         </a>
 
