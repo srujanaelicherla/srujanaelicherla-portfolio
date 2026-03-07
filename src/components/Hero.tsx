@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation"
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6">
+    <section className="min-h-screen flex items-center justify-center px-6 bg-gradient-to-b from-white/40 to-transparent backdrop-blur-sm">
 
       <div className="flex flex-col md:flex-row items-center gap-12 text-center md:text-left">
 
@@ -25,9 +25,9 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="text-6xl md:text-7xl font-bold mb-6"
           >
-            <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">
-              Srujana Elicherla
-            </span>
+            <span className="bg-gradient-to-r from-purple-400 via-violet-400 to-indigo-400 text-transparent bg-clip-text">
+  Srujana Elicherla
+</span>
           </motion.h1>
 
           <TypeAnimation
@@ -44,10 +44,10 @@ export default function Hero() {
             wrapper="span"
             speed={50}
             repeat={Infinity}
-            className="text-xl text-gray-300"
+            className="text-xl text-gray-700"
           />
 
-          <p className="text-gray-400 max-w-xl mt-6">
+          <p className="text-gray-700 max-w-xl mt-6">
             I build intelligent systems, explore cybersecurity challenges,
             and love creating impactful software through hackathons and projects.
           </p>
@@ -56,7 +56,9 @@ export default function Hero() {
 
             <a
               href="#projects"
-              className="px-7 py-3 bg-blue-600 rounded-lg hover:bg-blue-500 transition"
+              className="px-8 py-3 rounded-xl text-slate-900 font-medium backdrop-blur-md
+              bg-gradient-to-r from-sky-300/70 to-blue-300/70
+              shadow-lg hover:scale-105 transition"
             >
               View Projects
             </a>
@@ -65,7 +67,9 @@ export default function Hero() {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-7 py-3 border border-gray-600 rounded-lg hover:bg-white/10"
+              className="px-8 py-3 rounded-xl border border-purple-200
+              bg-white/40 backdrop-blur-md
+              hover:bg-white/60 transition"
             >
               Resume
             </a>

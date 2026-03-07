@@ -6,8 +6,13 @@ html {
 
 body {
   font-family: system-ui, Arial, sans-serif;
-  background: radial-gradient(circle at top, #1e293b, #020617);
-  color: white;
+  background: linear-gradient(
+    135deg,
+    #fdf4ff,
+    #eef2ff,
+    #e0f2fe
+  );
+  color: #1f2937;
 }
 
 .glass {
