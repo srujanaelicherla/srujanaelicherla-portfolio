@@ -86,7 +86,7 @@ export default function BunnyPlayground() {
     const animate = () => {
       if (!paused) {
         setLeft(prev => {
-          const speed = 0.6
+          const speed = 2
 
           const newLeft =
             Math.abs(prev - target) < speed
@@ -151,7 +151,7 @@ export default function BunnyPlayground() {
           alt="Carrot"
           style={{
             position: "absolute",
-            bottom: 20,
+            bottom: 15,
             left: carrot.x,
             width: 40,
             pointerEvents: "none",
@@ -165,7 +165,7 @@ export default function BunnyPlayground() {
         alt="Bunny"
         style={{
           position: "absolute",
-          bottom: -10,
+          bottom: -20,
           left,
           width: 126,
           height: 126,
